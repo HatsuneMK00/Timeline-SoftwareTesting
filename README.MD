@@ -1,10 +1,10 @@
 # Software Testing Lab 03
 
-## Timeline
+## Timeline Refactor
 
 ## Testing Goal 
 
-- 重构单元测试代码
+- 重构单元测试代码 
 
 ### DataBaseUtilityTest部分
 

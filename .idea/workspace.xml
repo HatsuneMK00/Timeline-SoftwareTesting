@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a5d205-b296-4adc-ac22-61989e42fc71" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ceej/model/ArticleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ceej/model/ArticleTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -291,7 +291,8 @@
       <workItem from="1573721918737" duration="32000" />
       <workItem from="1574879316976" duration="312000" />
       <workItem from="1574915115739" duration="120000" />
-      <workItem from="1574995576417" duration="6858000" />
+      <workItem from="1574995576417" duration="6955000" />
+      <workItem from="1575023446097" duration="228000" />
     </task>
     <task id="LOCAL-00001" summary="change the environment">
       <created>1573450730941</created>
@@ -363,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575022622088</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactor: 重构ArticleTest代码">
+      <created>1575022905462</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575022905462</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,6 +427,7 @@
     <MESSAGE value="refactor: 删除DataBaseUtilityTest部分无用注释" />
     <MESSAGE value="refactor: 重构ArticleControllerTest代码" />
     <MESSAGE value="refactor: 重构UserControllerTest代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: 重构UserControllerTest代码" />
+    <MESSAGE value="refactor: 重构ArticleTest代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: 重构ArticleTest代码" />
   </component>
 </project>
