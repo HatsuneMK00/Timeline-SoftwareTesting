@@ -31,15 +31,15 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @WebAppConfiguration
 class ArticleControllerTest {
-    DataBaseUtility mock_dbUtil;
-    FileOperator mock_fileOp;
+    private DataBaseUtility mock_dbUtil;
+    private FileOperator mock_fileOp;
     ArticleController articleController;
 
     private MockMvc mockMvc;
 
 
     @BeforeEach
-    public void mocksetup(){
+    public void mockSetup(){
         mock_dbUtil = mock(DataBaseUtility.class);
         mock_fileOp = mock(FileOperator.class);
 
@@ -236,6 +236,7 @@ class ArticleControllerTest {
     //testing retrieveNewestArticles
     @Test
     @Disabled
+    @DisplayName("Retrieve articles: 当文章全部获取后获取新文章返回null")
     public void retrieveNewestArticles_query_articles_failed_return_num_0() throws Exception {
         when(mock_dbUtil.getCurrentArticles(anyInt(), anyInt())).thenReturn(null);
         String jsonBase = "{\n" +
@@ -252,6 +253,7 @@ class ArticleControllerTest {
     }
     @Test
     @Disabled
+    @DisplayName("Retrieve articles: 返回正确的比指定文章时间更早的文章数量")
     public void retrieveNewestArticles_return_correct_number_of_article_which_id_greater_than_front() throws Exception {
         Article a1=new Article(),a2=new Article(),a3=new Article(),a4=new Article(),a5=new Article();
         a1.setArticleID("1");
@@ -282,6 +284,7 @@ class ArticleControllerTest {
     }
     @Test
     @Disabled
+    @DisplayName("Retrieve articles: 返回指定数量的文章")
     public void retrieveNewestArticles_return_correct_number_of_article_which_maximum_equals_to_num() throws Exception {
         Article a1=new Article(),a2=new Article(),a3=new Article(),a4=new Article(),a5=new Article();
         a1.setArticleID("1");
@@ -303,14 +306,16 @@ class ArticleControllerTest {
                 mockMvc.perform(requestBuilder).andReturn();
         ArrayList<HashMap> data = JsonPath.read(result.getResponse().getContentAsString(),"$.data");
         assertAll(
-                ()->{assertEquals(2,data.size());},
-                ()->{assertEquals("5",data.get(0).get("articleID"));},
-                ()->{assertEquals("4",data.get(1).get("articleID"));}
+                ()->assertEquals(2,data.size()),
+                ()->assertEquals("5",data.get(0).get("articleID")),
+                ()->assertEquals("4",data.get(1).get("articleID"))
         );
     }
 
     //testing retrievePreviousArticles
     @Test
+    @Disabled
+    @DisplayName("Retrieve articles: 当不存在更早的文章时文章数返回为0")
     public void retrievePreviousArticles_query_articles_failed_return_num_0() throws Exception {
         when(mock_dbUtil.getPreviousArticles(anyInt(), anyInt())).thenReturn(null);
         String jsonBase = "{\n" +
@@ -325,7 +330,10 @@ class ArticleControllerTest {
         ArrayList<HashMap> data = JsonPath.read(result.getResponse().getContentAsString(),"$.data");
         assertEquals(0, data.size());
     }
+
     @Test
+    @Disabled
+    @DisplayName("Retrieve articles: 返回正确的比当前文章更晚的文章数量")
     public void retrievePreviousArticles_return_correct_number_of_article_which_id_greater_than_front() throws Exception {
         Article a1=new Article(),a2=new Article(),a3=new Article(),a4=new Article(),a5=new Article();
         a1.setArticleID("1");
@@ -353,6 +361,8 @@ class ArticleControllerTest {
         );
     }
     @Test
+    @Disabled
+    @DisplayName("Retrieve articles: 获得正确的过往文章数量")
     public void retrievePreviousArticles_return_correct_number_of_article_which_maximum_equals_to_num() throws Exception {
         Article a1=new Article(),a2=new Article(),a3=new Article(),a4=new Article(),a5=new Article();
         a1.setArticleID("1");

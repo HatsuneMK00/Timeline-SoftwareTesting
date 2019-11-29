@@ -6,13 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3a5d205-b296-4adc-ac22-61989e42fc71" name="Default Changelist" comment="change: 修改了一个函数名">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f3a5d205-b296-4adc-ac22-61989e42fc71" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/ctrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ceej/controller/DataBaseUtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ceej/controller/DataBaseUtilityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ceej/model/ArticleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ceej/model/ArticleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ceej/controller/ArticleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ceej/controller/ArticleControllerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -294,7 +291,7 @@
       <workItem from="1573721918737" duration="32000" />
       <workItem from="1574879316976" duration="312000" />
       <workItem from="1574915115739" duration="120000" />
-      <workItem from="1574995576417" duration="1327000" />
+      <workItem from="1574995576417" duration="3384000" />
     </task>
     <task id="LOCAL-00001" summary="change the environment">
       <created>1573450730941</created>
@@ -338,21 +335,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573488682771</updated>
     </task>
-    <task id="LOCAL-00007" summary="fix: 所有测试通过 补充了DataBaseUtility一些条件中的空指针判断">
-      <created>1573527565611</created>
+    <task id="LOCAL-00007" summary="refactor: 重构DataBaseUtilityTest部分代码">
+      <created>1574996943936</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1573527565611</updated>
+      <updated>1574996943937</updated>
     </task>
-    <task id="LOCAL-00008" summary="change: 修改了一个函数名">
-      <created>1573550628688</created>
+    <task id="LOCAL-00008" summary="refactor: 删除DataBaseUtilityTest部分无用注释">
+      <created>1574996997279</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1573550628688</updated>
+      <updated>1574996997279</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,6 +401,8 @@
     <MESSAGE value="全部函数测试完成" />
     <MESSAGE value="fix: 所有测试通过 补充了DataBaseUtility一些条件中的空指针判断" />
     <MESSAGE value="change: 修改了一个函数名" />
-    <option name="LAST_COMMIT_MESSAGE" value="全部函数测试完成" />
+    <MESSAGE value="refactor: 重构DataBaseUtilityTest部分代码" />
+    <MESSAGE value="refactor: 删除DataBaseUtilityTest部分无用注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: 删除DataBaseUtilityTest部分无用注释" />
   </component>
 </project>
