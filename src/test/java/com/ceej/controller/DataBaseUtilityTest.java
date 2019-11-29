@@ -103,8 +103,6 @@ class DataBaseUtilityTest {
         );
 
         verify(statement).executeUpdate();
-//        这个可以不调用吗 不提交的话好像是不会修改数据库的吧
-//        verify(connection).commit();
         verify(statement, times(2)).close();
         verify(connection, times(2)).close();
     }
@@ -116,8 +114,6 @@ class DataBaseUtilityTest {
         String password = "123456";
         when(connection.prepareStatement(anyString())).thenReturn(statement);
 //        when(statement.executeQuery()).thenReturn(new ResultSetImpl());
-//        这里要怎么才能让这个返回值为true啊
-//        如果不连数据库的话 必定是false的 调用后返回的resultSet为null
         boolean success = dao.isPwdCorrect(userId, password);
         assertFalse(success);
 
@@ -193,8 +189,6 @@ class DataBaseUtilityTest {
         );
 
         verify(statement).executeUpdate();
-//        这个可以不调用吗 不提交的话好像是不会修改数据库的吧
-//        verify(connection).commit();
         verify(statement, times(2)).close();
         verify(connection, times(2)).close();
     }
@@ -257,7 +251,6 @@ class DataBaseUtilityTest {
         );
 
         verify(statement).executeUpdate();
-//        这个可以不调用吗 不提交的话好像是不会修改数据库的吧
 //        verify(connection).commit();
         verify(statement, times(2)).close();
         verify(connection, times(2)).close();
@@ -279,15 +272,7 @@ class DataBaseUtilityTest {
                 () -> assertEquals("1", stringArgumentCaptor.getAllValues().get(0)),
                 () -> assertEquals("1", stringArgumentCaptor.getAllValues().get(1))
         );
-        /*
-        * org.mockito.exceptions.verification.TooManyActualInvocations:
-preparedStatement.close();
-Wanted 1 time:
--> at com.ceej.controller.DataBaseUtilityTest.get_image_url_of_article(DataBaseUtilityTest.java:242)
-But was 2 times:
--> at com.ceej.controller.DataBaseUtility.closeConnection(DataBaseUtility.java:32)
--> at com.ceej.controller.DataBaseUtility.closeConnection(DataBaseUtility.java:32)
-        * */
+
         verify(statement, times(2)).close();
         verify(connection, times(2)).close();
     }
