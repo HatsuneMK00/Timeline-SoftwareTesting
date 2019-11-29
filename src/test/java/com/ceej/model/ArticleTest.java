@@ -8,7 +8,7 @@ import org.junit.jupiter.api.TestInstance;
 import static org.junit.jupiter.api.Assertions.*;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class ArticleTest {
-    Article article;
+    private Article article;
 
     @BeforeEach
     public void init(){

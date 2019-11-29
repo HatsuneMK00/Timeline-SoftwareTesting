@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Testing-Timeline:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3a5d205-b296-4adc-ac22-61989e42fc71" name="Default Changelist" comment="change: 修改了一个函数名">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/ctrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ceej/controller/DataBaseUtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ceej/controller/DataBaseUtilityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ceej/model/ArticleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ceej/model/ArticleTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="makise" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="ceej7" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Testing-Timeline" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\IntelliJ IDEA 2019.2.2\plugins\maven\lib\maven3\lib" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\IntelliJ IDEA 2019.2.2\plugins\maven\lib\maven3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ssv2brzwG375UZB6EYXiVXhXb7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="D:/JAVA/src.zip!/" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ceej.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ceej_\Documents\Repos\TestingTimeline\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DataBaseUtilityTest.is_pwd_correct">
+    <configuration name="DataBaseUtilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Timeline" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceej.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ceej.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ceej.controller.DataBaseUtilityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBaseUtilityTest.add_article" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Timeline" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceej.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ceej.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ceej.controller.DataBaseUtilityTest" />
+      <option name="METHOD_NAME" value="add_article" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBaseUtilityTest.delete_article" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Timeline" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceej.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ceej.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ceej.controller.DataBaseUtilityTest" />
+      <option name="METHOD_NAME" value="delete_article" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBaseUtilityTest.get_image_url_of_article" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Timeline" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceej.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ceej.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ceej.controller.DataBaseUtilityTest" />
+      <option name="METHOD_NAME" value="get_image_url_of_article" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBaseUtilityTest.is_pwd_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Timeline" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceej.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ceej.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ceej.controller.DataBaseUtilityTest" />
+      <option name="METHOD_NAME" value="is_pwd_correct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="localhost" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.45" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Testing-Timeline:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/timeline" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Timeline" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56247" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Timeline:war" />
+          <artifact name="Testing-Timeline:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DataBaseUtilityTest.delete_article" />
+      <item itemvalue="JUnit.DataBaseUtilityTest.get_image_url_of_article" />
+      <item itemvalue="JUnit.DataBaseUtilityTest" />
+      <item itemvalue="JUnit.DataBaseUtilityTest.add_article" />
+      <item itemvalue="JUnit.DataBaseUtilityTest.is_pwd_correct" />
+      <item itemvalue="Tomcat Server.localhost" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DataBaseUtilityTest.get_image_url_of_article" />
+        <item itemvalue="JUnit.DataBaseUtilityTest.delete_article" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3a5d205-b296-4adc-ac22-61989e42fc71" name="Default Changelist" comment="" />
+      <created>1572364911246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572364911246</updated>
+      <workItem from="1572364915832" duration="15430000" />
+      <workItem from="1572423261694" duration="16978000" />
+      <workItem from="1572501508233" duration="5860000" />
+      <workItem from="1572508586628" duration="2986000" />
+      <workItem from="1573449840938" duration="17207000" />
+      <workItem from="1573524232732" duration="6644000" />
+      <workItem from="1573557915760" duration="1497000" />
+      <workItem from="1573569160856" duration="13000" />
+      <workItem from="1573705869122" duration="570000" />
+      <workItem from="1573721918737" duration="32000" />
+      <workItem from="1574879316976" duration="312000" />
+      <workItem from="1574915115739" duration="120000" />
+      <workItem from="1574995576417" duration="1327000" />
+    </task>
+    <task id="LOCAL-00001" summary="change the environment">
+      <created>1573450730941</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573450730941</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change the db setting and file setting">
+      <created>1573455596220</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573455596220</updated>
+    </task>
+    <task id="LOCAL-00003" summary="看起来好像成功的测了第一个函数了 接下去全部测完">
+      <created>1573458509405</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573458509405</updated>
+    </task>
+    <task id="LOCAL-00004" summary="check the add user function, has 1 test fail">
+      <created>1573459719287</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573459719287</updated>
+    </task>
+    <task id="LOCAL-00005" summary="还剩最后两个函数要测">
+      <created>1573464887615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573464887615</updated>
+    </task>
+    <task id="LOCAL-00006" summary="全部函数测试完成">
+      <created>1573488682771</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573488682771</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: 所有测试通过 补充了DataBaseUtility一些条件中的空指针判断">
+      <created>1573527565611</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573527565611</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change: 修改了一个函数名">
+      <created>1573550628688</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573550628688</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="HEAD..makise" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change the environment" />
+    <MESSAGE value="change the db setting and file setting" />
+    <MESSAGE value="看起来好像成功的测了第一个函数了 接下去全部测完" />
+    <MESSAGE value="check the add user function, has 1 test fail" />
+    <MESSAGE value="还剩最后两个函数要测" />
+    <MESSAGE value="全部函数测试完成" />
+    <MESSAGE value="fix: 所有测试通过 补充了DataBaseUtility一些条件中的空指针判断" />
+    <MESSAGE value="change: 修改了一个函数名" />
+    <option name="LAST_COMMIT_MESSAGE" value="全部函数测试完成" />
+  </component>
+</project>
