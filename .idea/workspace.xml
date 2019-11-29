@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a5d205-b296-4adc-ac22-61989e42fc71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ceej/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ceej/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ceej/model/ArticleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ceej/model/ArticleTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -261,6 +260,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DataBaseUtilityTest.is_pwd_correct" />
         <item itemvalue="JUnit.DataBaseUtilityTest.get_image_url_of_article" />
         <item itemvalue="JUnit.DataBaseUtilityTest.delete_article" />
       </list>
@@ -291,7 +291,7 @@
       <workItem from="1573721918737" duration="32000" />
       <workItem from="1574879316976" duration="312000" />
       <workItem from="1574915115739" duration="120000" />
-      <workItem from="1574995576417" duration="6610000" />
+      <workItem from="1574995576417" duration="6858000" />
     </task>
     <task id="LOCAL-00001" summary="change the environment">
       <created>1573450730941</created>
@@ -356,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575001822831</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactor: 重构UserControllerTest代码">
+      <created>1575022622088</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575022622088</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,6 +418,7 @@
     <MESSAGE value="refactor: 重构DataBaseUtilityTest部分代码" />
     <MESSAGE value="refactor: 删除DataBaseUtilityTest部分无用注释" />
     <MESSAGE value="refactor: 重构ArticleControllerTest代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: 重构ArticleControllerTest代码" />
+    <MESSAGE value="refactor: 重构UserControllerTest代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: 重构UserControllerTest代码" />
   </component>
 </project>
